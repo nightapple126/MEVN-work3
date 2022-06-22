@@ -1,0 +1,8 @@
+{
+    "DB_HOST": "mongodb://localhost/",
+    "DB_NAME": "judy_db",
+    "KAIROS_CREDENTIALS":{
+        "APP_ID":"0ff66693",
+        "KEY":"270520c6e8653a4e41f7c4eb6588297d"
+    }
+}

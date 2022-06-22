@@ -1,0 +1,12 @@
+{
+  "name": "judy-app",
+  "version": "1.0.0",
+  "description": "Judy the smart butler, ready to serve you ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "vue": "cd judy-client && `npm run dev`",
+    "app": "cd judy-server && `npm start`"
+  },
+  "author": "Devapes_Team",
+  "license": "ISC"
+}

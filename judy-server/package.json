@@ -1,0 +1,43 @@
+{
+  "name": "judy-server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "apiai": "^4.0.3",
+    "body-parser": "~1.18.2",
+    "chalk": "^2.3.2",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "express-fileupload": "^0.4.0",
+    "express-session": "^1.15.6",
+    "google-auth-library": "^0.12.0",
+    "googleapis": "^28.1.0",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^8.2.0",
+    "kairos-api": "^0.1.3",
+    "mongodb": "^3.0.4",
+    "mongoose": "^5.0.11",
+    "morgan": "~1.9.0",
+    "ora": "^2.0.0",
+    "passport": "^0.4.0",
+    "passport-json-custom": "^1.0.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^5.0.0",
+    "passport-strategy": "^1.0.0",
+    "request": "^2.85.0",
+    "request-debug": "^0.2.0",
+    "serve-favicon": "~2.4.5",
+    "uuid": "^3.2.1",
+    "watson-developer-cloud": "^3.3.0",
+    "watson-speech": "^0.34.1",
+    "ws": "~1.0.1",
+    "kurento-client": "6.6.0",
+    "socket.io": "^2.0.4"
+  }
+}

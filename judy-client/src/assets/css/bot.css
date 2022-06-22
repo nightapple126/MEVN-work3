@@ -1,0 +1,154 @@
+
+
+#judy{
+    width:100%;
+    height:auto;
+}
+
+#boxContainer{
+    margin:auto;
+}
+
+#micro{
+    cursor: pointer;
+    display:block;
+}
+
+#bot-input{
+    width:70%;
+    margin:auto;
+    margin-top:0.5em;
+
+}
+
+#bot-response{
+    width:90%;
+    border-radius: 50px;
+    position: relative;
+    padding : 2em;
+    position: relative;
+	background: #bdbec026;
+	border-radius: .4em;
+    min-height:400px;
+    display:flex;
+    flex-direction: column;
+  
+}
+
+#bot-response:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 23px solid transparent;
+	border-right-color: #bdbec026;
+	border-left: 0;
+	border-bottom: 0;
+	margin-top: -11.5px;
+	margin-left: -23px;
+}
+
+#bot-response .text-response{
+    color:#757575;
+    text-align:center;
+    font-size:1.5em;
+    margin:auto;
+    display:flex;
+    flex-direction: row;
+    font-style: italic;
+}
+#bot-response .text-response p{
+    font-size:30px;
+    padding-right:8px;
+    padding-left:8px;
+    
+}
+#bot-response p span{
+    margin-top:1em;
+    display:inline-block;
+}
+#additional-content{
+    width:100%;
+    height:250px;
+    border:1px solid white;
+    color:white;
+}
+
+.food-list{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.food-list .arrow-left{
+    width:10%;
+    margin:auto;
+    padding-right:5px !important;
+}
+.food-list .arrow-right{
+    width:10%;
+    margin:auto;
+    padding-left:5px !important;
+}
+.food-list PlateCard{
+    width:80%;
+}
+
+body, html {
+    font-family: sans-serif;
+    font-weight: 100;
+  background: #7b4397;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #dc2430, #7b4397);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #dc2430, #7b4397); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  
+  .headline {
+    text-align: center;
+    font-weight: 100;
+    color: white;
+  }
+  .bigger{
+      width:100% !important;
+  }
+  .chat-area {
+  /*   border: 1px solid #ccc; */
+    background: white;
+    height: 500px;
+    margin-bottom: 1em;
+    padding: 1em;
+    overflow: auto;
+    width:85%;
+    margin: 0 auto 2em auto;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3)
+    
+  }
+  .message {
+    width: 45%;
+    border-radius: 10px;
+    padding: .5em;
+  /*   margin-bottom: .5em; */
+    font-size: 1em;
+    margin-bottom:1em;
+  }
+  .message-out {
+    background: #407FFF;
+    color: white;
+    margin-left: 45%;
+  }
+  .message-in {
+    background: #F1F0F0;
+    color: black;
+    margin-left: 5%;
+  }
+  .chat-inputs {
+    display: flex;
+    justify-content: space-between;
+  }
+  #person1-input {
+    padding: .5em;
+  }
+  #person2-input {
+    padding: .5em;  
+  }
+  
